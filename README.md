@@ -1,2 +1,2 @@
 # Command-Line-Line-Counter
-counts the number of lines in the output of a given command executed on the command line
+This project provides a C program that counts the number of lines in the output of a given command executed on the command line. The program takes command line arguments and constructs the command by concatenating them together. It then uses the popen() function to execute the command and read its output. The number of lines in the output is counted using a buffer and loop structure. The final count is printed to the console. This utility can be useful for quickly determining the number of lines produced by various command line operations.
